@@ -1,24 +1,18 @@
 function dropDownModule(){
-    const dropDownSecondItems = document.querySelectorAll('.dropdown-second')
-    const dropDownThirdItems = document.querySelectorAll('.dropdown-third')
+    const dropDownItems = document.querySelectorAll('.dropdown-items')
     const dropDownArrows = document.querySelectorAll('.dropdown-arrow')
 
 
     for (let i = 0; i <dropDownArrows.length; i++){
         dropDownArrows[i].addEventListener('click', function(){
-        if (dropDownSecondItems[i].classList.contains("visible"))
-        {dropDownSecondItems[i].classList.remove("visible")
-        } else if (!dropDownSecondItems[i].classList.contains("visible")){
-            dropDownSecondItems[i].classList.add("visible")
-        }
-        if (dropDownThirdItems[i].classList.contains("visible"))
-        {dropDownThirdItems[i].classList.remove("visible")
-        } else if (!dropDownThirdItems[i].classList.contains("visible")){
-            dropDownThirdItems[i].classList.add("visible")
+        if (dropDownItems[i].classList.contains("visible"))
+        {dropDownItems[i].classList.remove("visible")
+        } else if (!dropDownItems[i].classList.contains("visible")){
+            dropDownItems[i].classList.add("visible")
         }
         })
     }
-    console.log(dropDownSecondItems[0].classList)
+    console.log(dropDownItems[0].classList)
 }
 
 
