@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <div class="carousel">
+        <div class="top-section">
+            <div class="nav-arrows">
+                <img src="./images/left-arrow.svg" class="navigation-icon nav-left">
+            </div>
+            <div class="images-box">
+                <img src="./images/bulldogs.jpeg" class="carousel-img hidden" alt="Canterbury-Bankstown Bulldogs">
+                <img src="./images/panthers.jpg" class="carousel-img hidden" alt="Penrith Panthers">
+                <img src="./images/rabbitohs.jpeg" class="carousel-img active-img" alt="South Sydney Rabbitohs">
+                <img src="./images/storm.jpg" class="carousel-img hidden" alt="Melbourne Storm">
+            </div>
+            <div class="nav-arrows">
+                <img src="./images/right-arrow.svg" class="navigation-icon nav-right">
+            </div>
+        </div>
+        <div class="bottom-section">
+            <div class="navigation-dots-box">
+                <div class="navigation-dot active-dot" ></div>
+                <div class="navigation-dot"></div>
+                <div class="navigation-dot"></div>
+                <div class="navigation-dot"></div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

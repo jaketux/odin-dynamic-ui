@@ -1,0 +1,52 @@
+.navigation-icon{
+    height:50px;
+}
+
+.carousel-img{
+    object-fit: cover;
+    height:500px;
+    width:500px
+}
+
+.hidden{
+    display:none;
+}
+
+.top-section{display:flex;
+justify-content:center;
+align-items:center;}
+
+.nav-arrows{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.nav-arrows:first-child{
+    margin:0px 20px;
+
+}
+
+.nav-arrows:last-child{
+    margin:0px 20px;
+}
+
+.navigation-dots-box{
+    display: flex;
+    justify-content:center;
+    align-items:center
+}
+
+.navigation-dot{
+    height: 5px;
+    width:5px;
+    border-radius:50%;
+    border:1px solid black;
+    margin:5px 2.5px;
+
+}
+
+.active-dot{
+    background-color: black;
+}
+
