@@ -1,0 +1,16 @@
+.input-box{
+    margin:20px 0px;
+}
+
+.valid-input{
+    border:2px solid rgb(0, 255, 13);
+}
+
+.invalid-input{
+    border:2px solid red;
+}
+
+.error-text{
+    font-size:12px;
+    color:red
+}

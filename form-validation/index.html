@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="form-div">
+        <div id="error-text"></div>
+        <form action="get" novalidate id="form">
+            <div class="input-box">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <div class="error-text" id="email-errortext"></div>    
+            </div>
+            <div class="input-box">
+                <label for="country">Country:</label>
+                <input type="text" name="country" id="country">
+                <div class="error-text" id="country-errortext"></div>    
+            </div>
+            <div class="input-box">
+                <label for="postcode">Postcode:</label>
+                <input type="text" name="postcode" id="postcode">
+                <div class="error-text" id="postcode-errortext"></div>    
+            </div>
+            <div class="input-box">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+                <div class="error-text" id="password-errortext"></div>    
+            </div>
+            <div class="input-box">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" name="confirm-password" id="confirm-password">
+                <button type="button" id="submit-btn">Submit</button>
+                <div class="error-text" id="confirm-password-errortext"></div>    
+            </div>
+        </form>
+    </div>
+    <script src="index.js" defer></script>
+</body>
+</html>
